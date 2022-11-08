@@ -16,7 +16,7 @@ void DigitSum(int number)
     }
     Console.ForegroundColor = ConsoleColor.Cyan; 
     Console.WriteLine($"The summary of all digits in {number2} is {sum}.");
-    Console.ResetColor();
+    // Console.ResetColor();
 }
 
 Console.WriteLine("Please enter number: ");
