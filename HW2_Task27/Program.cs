@@ -11,8 +11,8 @@ void DigitSum(int number)
     int number2 = number;
     while (number > 0)
     {
-        sum = sum + number % 10;
-        number = number / 10;
+        sum += number % 10;
+        number /= 10;
     }
     Console.ForegroundColor = ConsoleColor.Cyan; 
     Console.WriteLine($"The summary of all digits in {number2} is {sum}.");
